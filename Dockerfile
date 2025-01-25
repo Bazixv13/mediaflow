@@ -10,4 +10,4 @@ RUN pip install mediaflow-proxy
 
 EXPOSE 7860
 
-CMD ["uvicorn", "mediaflow_proxy.main:app", "--host", "0.0.0.0", "--port", "7860", "--workers", "4"]
+CMD ["uvicorn", "mediaflow_proxy.main:app", "--host", "0.0.0.0", "--port", "10000", "--workers", "4"]
